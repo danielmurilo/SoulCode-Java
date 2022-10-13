@@ -19,6 +19,6 @@ public class Exercicio5 {
             soma += numero;
         }
         System.out.println("soma: " + soma);
-        System.out.println("media: " + soma / tamanho);
+        System.out.println("media: " + soma / numeros.length);
     }
 }
