@@ -1,3 +1,5 @@
+package aulas;
+
 //2) Faça um programa que exiba os números de 1 até 2000.
 public class Exercicio2 {
 
