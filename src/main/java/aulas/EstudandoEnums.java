@@ -1,3 +1,5 @@
+package aulas;
+
 public class EstudandoEnums {
 
     public static void main(String[] args) {

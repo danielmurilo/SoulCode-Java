@@ -1,5 +1,6 @@
 package aulas;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /*1) Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas:
@@ -15,6 +16,7 @@ public class Exercicio1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite uma opção:\n1 – Adição\n2 – Subtração \n3 – Multiplicação \n4 – Divisão");
         int operacao = scanner.nextInt();
+        scanner.useLocale(Locale.US);//este comando recebe doubles com ponto, padrão americano.
         System.out.println("Informe o primeiro valor:");
         Double a = scanner.nextDouble();
         System.out.println("Agora informe o segundo valor:");
